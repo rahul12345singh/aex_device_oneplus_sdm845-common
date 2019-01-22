@@ -1,4 +1,5 @@
 subdirs = [
     "lights",
+    "livedisplay",
     "tri-state-key"
 ]
