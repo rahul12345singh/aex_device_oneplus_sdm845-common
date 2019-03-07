@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
+    init.target.rc \
     msm_irqbalance.conf
 
 # Display
