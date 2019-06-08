@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    msm_irqbalance.conf
 
 # Display
 PRODUCT_PACKAGES += \
