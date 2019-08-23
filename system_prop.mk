@@ -87,3 +87,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SSR
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ssr.restart_level=ALL_ENABLE
+
+#Expose aux camera for below packages
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.qualcomm.qti.qmmi,com.oneplus.camera \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.qualcomm.qti.qmmi,com.oneplus.camera
