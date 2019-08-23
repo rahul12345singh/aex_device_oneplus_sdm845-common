@@ -92,3 +92,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.qualcomm.qti.qmmi,com.oneplus.camera \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.qualcomm.qti.qmmi,com.oneplus.camera
+
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
