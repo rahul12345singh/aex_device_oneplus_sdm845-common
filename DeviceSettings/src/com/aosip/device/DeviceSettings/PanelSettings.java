@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.aospextended.device.DeviceSettings;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -43,7 +43,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.util.Log;
 
-import com.aosip.device.DeviceSettings.DeviceSettings;
+import com.aospextended.device.DeviceSettings.DeviceSettings;
 
 public class PanelSettings extends PreferenceFragment implements RadioGroup.OnCheckedChangeListener {
     private RadioGroup mRadioGroup;

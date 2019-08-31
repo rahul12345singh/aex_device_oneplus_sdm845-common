@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.aospextended.device.DeviceSettings;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -39,15 +39,11 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.util.Log;
 
-<<<<<<< HEAD:KeyHandler/src/org/lineageos/settings/device/ButtonSettingsFragment.java
-import org.lineageos.settings.device.utils.Constants;
-=======
-import com.android.internal.util.aosip.FileUtils;
-import com.aosip.device.DeviceSettings.Constants;
+import com.android.internal.util.aospextended.FileUtils;
+import com.aospextended.device.DeviceSettings.Constants;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
->>>>>>> 0a7af85... sdm845-common: Introduce DeviceSettings:DeviceSettings/src/com/aosip/device/DeviceSettings/DeviceSettings.java
 
     public static final String KEY_SRGB_SWITCH = "srgb";
     public static final String KEY_HBM_SWITCH = "hbm";

@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.aospextended.device.DeviceSettings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,7 +24,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceManager;
 
-import com.aosip.device.DeviceSettings.DeviceSettings;
+import com.aospextended.device.DeviceSettings.DeviceSettings;
 
 public class AdaptiveModeSwitch implements OnPreferenceChangeListener {
 

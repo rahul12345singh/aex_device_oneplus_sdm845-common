@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
-# AOSiP Device Settings
+# AEX Device Settings
 PRODUCT_PACKAGES += \
     DeviceSettings
 

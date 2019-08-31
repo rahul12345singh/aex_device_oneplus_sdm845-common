@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.aospextended.device.DeviceSettings;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.content.SharedPreferences;
 import android.service.quicksettings.TileService;
 import android.support.v7.preference.PreferenceManager;
 
-import com.aosip.device.DeviceSettings.DeviceSettings;
+import com.aospextended.device.DeviceSettings.DeviceSettings;
 
 @TargetApi(24)
 public class HBMModeTileService extends TileService {
